@@ -1,0 +1,13 @@
+About
+
+Main task is to translate ICD-10 and OPS from its original ClaML-XML format to SKOS.
+
+It is used XSLT to transform ClaML / XML documents into SKOS. attached are two XSLT stylesheets for ICD and OPS.
+
+The resulting files in rdf been validated, enriched and improved with Skosify.
+
+Skosify is a toolthat can be used to convert vocabularies overexpressed as RDFS and OWL into SKOS format. 
+
+It can therefore be used to Improve, enrich and validate existing SKOS vocabularies.
+
+
