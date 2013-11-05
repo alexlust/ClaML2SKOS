@@ -121,7 +121,7 @@
                         <xsl:for-each select="/ClaML/Class">
                                          <skos:Concept>
                                                  <xsl:attribute name="rdf:about">
-                                                         <xsl:value-of select="@code"/>
+                                                         <xsl:text disable-output-escaping="yes"><![CDATA[#]]></xsl:text><xsl:value-of select="@code"/>
                                                  </xsl:attribute>
                                                  
                                                  <skos:definition>Class</skos:definition>
